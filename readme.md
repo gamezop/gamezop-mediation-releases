@@ -68,14 +68,14 @@ Step 2 — Add Dependency (Groovy build.gradle)
 ```
 dependencies {
     implementation 'com.google.android.gms:play-services-ads:22.4.0'
-    implementation 'com.gamezop:gzp_mediation_adapter:1.0.0'
+    implementation 'com.gamezop:gzp_mediation_adapter:1.1.0'
 }
 ```
 Step 2(b) — Kotlin DSL Version (build.gradle.kts)
 ```
 dependencies {
     implementation("com.google.android.gms:play-services-ads:22.4.0")
-    implementation("com.gamezop:gzp_mediation_adapter:1.0.0")
+    implementation("com.gamezop:gzp_mediation_adapter:1.1.0")
 }
 ```
 Step 3 — Sync Project
