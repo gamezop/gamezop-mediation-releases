@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.gamezop",
+    "module": "gzp_mediation_adapter",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gzp_mediation_adapter-1.1.0.aar",
+          "url": "gzp_mediation_adapter-1.1.0.aar",
+          "size": 28521,
+          "sha512": "0673aaab150cde95d63749e4537afda732de440714c41e4db5618a996ceda7ac4be3dbfde430a7e679bc7891ed4834dce6ba9983657a1c38d56d9254b0b54182",
+          "sha256": "43cbc458387dabdd5ec48d16c3fdb4085423e305496c0fe8117dfd19caf900f3",
+          "sha1": "3a475e4b05e11527e031bf6711da3c1c2b661050",
+          "md5": "1bd94fe3e1e2cc7e8c411dc4a327daff"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "22.4.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gzp_mediation_adapter-1.1.0.aar",
+          "url": "gzp_mediation_adapter-1.1.0.aar",
+          "size": 28521,
+          "sha512": "0673aaab150cde95d63749e4537afda732de440714c41e4db5618a996ceda7ac4be3dbfde430a7e679bc7891ed4834dce6ba9983657a1c38d56d9254b0b54182",
+          "sha256": "43cbc458387dabdd5ec48d16c3fdb4085423e305496c0fe8117dfd19caf900f3",
+          "sha1": "3a475e4b05e11527e031bf6711da3c1c2b661050",
+          "md5": "1bd94fe3e1e2cc7e8c411dc4a327daff"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "gzp_mediation_adapter-1.1.0-sources.jar",
+          "url": "gzp_mediation_adapter-1.1.0-sources.jar",
+          "size": 5633,
+          "sha512": "f17a1e3d173d4c882e69be21a52f322bf8d8d8d2615d367601741bc17d27671e1d4a6b396843e492c30a3696f2bb184cd5369cffdf86fb35946a987591ec5dfc",
+          "sha256": "504c64e15d4370bf0c2822b622f76d9c88b58b46215b84930481070e48511815",
+          "sha1": "3715de4578877f57a9f4e46c3813e4f14ce857fa",
+          "md5": "a11afb734491a2a7572af8ea71f6ada6"
+        }
+      ]
+    }
+  ]
+}
