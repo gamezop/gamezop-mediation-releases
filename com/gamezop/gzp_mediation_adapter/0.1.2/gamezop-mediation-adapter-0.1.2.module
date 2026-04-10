@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.shoaib-gamezop",
+    "module": "gamezop-mediation-adapter",
+    "version": "0.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gamezop-mediation-adapter-0.1.2.aar",
+          "url": "gamezop-mediation-adapter-0.1.2.aar",
+          "size": 33617,
+          "sha512": "12e64bbb296387b82ccc7895d96fcd7fb78c2a34d329bdbc5825dfd8d61ff5d0c747b4cf74d26b9671886aa37070e9bf542f5b23a440c960dfbce765cf1f80e5",
+          "sha256": "a65c967e25339465591d462cbbfec09a10f8b4fa9eec5a556e41a5a814ea3622",
+          "sha1": "d5cbe8d7d67e0831a5088da5d76aa6dd8e3d142a",
+          "md5": "fb7df19e499ac5637f9435114998a164"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "22.4.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gamezop-mediation-adapter-0.1.2.aar",
+          "url": "gamezop-mediation-adapter-0.1.2.aar",
+          "size": 33617,
+          "sha512": "12e64bbb296387b82ccc7895d96fcd7fb78c2a34d329bdbc5825dfd8d61ff5d0c747b4cf74d26b9671886aa37070e9bf542f5b23a440c960dfbce765cf1f80e5",
+          "sha256": "a65c967e25339465591d462cbbfec09a10f8b4fa9eec5a556e41a5a814ea3622",
+          "sha1": "d5cbe8d7d67e0831a5088da5d76aa6dd8e3d142a",
+          "md5": "fb7df19e499ac5637f9435114998a164"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gamezop-mediation-adapter-0.1.2-sources.jar",
+          "url": "gamezop-mediation-adapter-0.1.2-sources.jar",
+          "size": 3924,
+          "sha512": "07594c64dd8816df9ee80da6022f26c09e28a84525c62ac873e424a9053fd0d2b6f73e2e0227b11d09d8dc78bafc1866282c2ba62bd5aa67a334b2b80f7d1be4",
+          "sha256": "5e886a4331e3a7e1ac28f322de53e79ab70c870490d23394649167fa428b9a32",
+          "sha1": "b17b040465f49fb078afb5ff220023a7c7368fab",
+          "md5": "c84f3b6c7bc1068cd348011638361dcf"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gamezop-mediation-adapter-0.1.2-javadoc.jar",
+          "url": "gamezop-mediation-adapter-0.1.2-javadoc.jar",
+          "size": 267285,
+          "sha512": "74785afdd300d978f3be22a83e1ea77c354c30c964ee4027f8670ddd56039b8b4942c8df41607c63272b53b06e78e6ac419ef9cfe15141bea3518c9244f83df6",
+          "sha256": "a0b5c565260297da2eeac6f0233558ea89350338981868b7f364c9586c422fbc",
+          "sha1": "6c2851353a23ca09fca27a6becb144eeafbc4619",
+          "md5": "85f8625a96bdb01e851163a786a21ed8"
+        }
+      ]
+    }
+  ]
+}
